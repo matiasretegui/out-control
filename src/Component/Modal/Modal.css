@@ -1,0 +1,52 @@
+.Modal {
+  width: 100vw;
+  height: 100vw;
+  background: rgba(0, 0, 0, 0.25);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.Modal .Content {
+  width: 600px;
+  height: fit-content;
+  background-color: #ffffff;
+  border-radius: 5px;
+  margin: 5% auto 0;
+  padding: 18px;
+}
+
+.Modal .Content label {
+  color: #777777;
+  padding: 0px;
+  text-align: left;
+}
+
+.Modal .Content input, select {
+  height: 36px;
+  width: 280px;
+  color: #777777;
+  background-color: white;
+}
+
+.Modal .Content input:focus, .Modal .Content select:focus {
+  outline: none !important;
+  box-shadow: 0 0 10px #669044;
+}
+
+.Modal .Content select:focus>option:hover {
+  background-color: #669044 !important;
+}
+
+.Modal .Content .title {
+  color: #333333;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.Modal .Content .title svg {
+  float: right;
+  color: #BAC2C7;
+  cursor: pointer;
+}

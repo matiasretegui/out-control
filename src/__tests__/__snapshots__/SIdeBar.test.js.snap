@@ -1,0 +1,467 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SideBar should render correctly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <SideBar />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <ul>
+        <li>
+                <NavLink
+                        activeClassName="active"
+                        aria-current="page"
+                        exact={true}
+                        to="/"
+                >
+                        Balance
+                </NavLink>
+        </li>
+        <li>
+                <NavLink
+                        activeClassName="active"
+                        aria-current="page"
+                        to="/gastos"
+                >
+                        Gastos
+                </NavLink>
+        </li>
+        <li>
+                <NavLink
+                        activeClassName="active"
+                        aria-current="page"
+                        to="/ingresos"
+                >
+                        Ingresos
+                </NavLink>
+        </li>
+        <li>
+                <NavLink
+                        activeClassName="active"
+                        aria-current="page"
+                        to="#about"
+                >
+                        About
+                </NavLink>
+        </li>
+</ul>,
+      "className": "bar",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <li>
+            <NavLink
+                        activeClassName="active"
+                        aria-current="page"
+                        exact={true}
+                        to="/"
+            >
+                        Balance
+            </NavLink>
+</li>,
+          <li>
+            <NavLink
+                        activeClassName="active"
+                        aria-current="page"
+                        to="/gastos"
+            >
+                        Gastos
+            </NavLink>
+</li>,
+          <li>
+            <NavLink
+                        activeClassName="active"
+                        aria-current="page"
+                        to="/ingresos"
+            >
+                        Ingresos
+            </NavLink>
+</li>,
+          <li>
+            <NavLink
+                        activeClassName="active"
+                        aria-current="page"
+                        to="#about"
+            >
+                        About
+            </NavLink>
+</li>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <NavLink
+              activeClassName="active"
+              aria-current="page"
+              exact={true}
+              to="/"
+>
+              Balance
+</NavLink>,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "activeClassName": "active",
+              "aria-current": "page",
+              "children": "Balance",
+              "exact": true,
+              "to": "/",
+            },
+            "ref": null,
+            "rendered": "Balance",
+            "type": [Function],
+          },
+          "type": "li",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <NavLink
+              activeClassName="active"
+              aria-current="page"
+              to="/gastos"
+>
+              Gastos
+</NavLink>,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "activeClassName": "active",
+              "aria-current": "page",
+              "children": "Gastos",
+              "to": "/gastos",
+            },
+            "ref": null,
+            "rendered": "Gastos",
+            "type": [Function],
+          },
+          "type": "li",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <NavLink
+              activeClassName="active"
+              aria-current="page"
+              to="/ingresos"
+>
+              Ingresos
+</NavLink>,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "activeClassName": "active",
+              "aria-current": "page",
+              "children": "Ingresos",
+              "to": "/ingresos",
+            },
+            "ref": null,
+            "rendered": "Ingresos",
+            "type": [Function],
+          },
+          "type": "li",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <NavLink
+              activeClassName="active"
+              aria-current="page"
+              to="#about"
+>
+              About
+</NavLink>,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "activeClassName": "active",
+              "aria-current": "page",
+              "children": "About",
+              "to": "#about",
+            },
+            "ref": null,
+            "rendered": "About",
+            "type": [Function],
+          },
+          "type": "li",
+        },
+      ],
+      "type": "ul",
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <ul>
+          <li>
+                    <NavLink
+                              activeClassName="active"
+                              aria-current="page"
+                              exact={true}
+                              to="/"
+                    >
+                              Balance
+                    </NavLink>
+          </li>
+          <li>
+                    <NavLink
+                              activeClassName="active"
+                              aria-current="page"
+                              to="/gastos"
+                    >
+                              Gastos
+                    </NavLink>
+          </li>
+          <li>
+                    <NavLink
+                              activeClassName="active"
+                              aria-current="page"
+                              to="/ingresos"
+                    >
+                              Ingresos
+                    </NavLink>
+          </li>
+          <li>
+                    <NavLink
+                              activeClassName="active"
+                              aria-current="page"
+                              to="#about"
+                    >
+                              About
+                    </NavLink>
+          </li>
+</ul>,
+        "className": "bar",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <li>
+              <NavLink
+                            activeClassName="active"
+                            aria-current="page"
+                            exact={true}
+                            to="/"
+              >
+                            Balance
+              </NavLink>
+</li>,
+            <li>
+              <NavLink
+                            activeClassName="active"
+                            aria-current="page"
+                            to="/gastos"
+              >
+                            Gastos
+              </NavLink>
+</li>,
+            <li>
+              <NavLink
+                            activeClassName="active"
+                            aria-current="page"
+                            to="/ingresos"
+              >
+                            Ingresos
+              </NavLink>
+</li>,
+            <li>
+              <NavLink
+                            activeClassName="active"
+                            aria-current="page"
+                            to="#about"
+              >
+                            About
+              </NavLink>
+</li>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <NavLink
+                activeClassName="active"
+                aria-current="page"
+                exact={true}
+                to="/"
+>
+                Balance
+</NavLink>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "activeClassName": "active",
+                "aria-current": "page",
+                "children": "Balance",
+                "exact": true,
+                "to": "/",
+              },
+              "ref": null,
+              "rendered": "Balance",
+              "type": [Function],
+            },
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <NavLink
+                activeClassName="active"
+                aria-current="page"
+                to="/gastos"
+>
+                Gastos
+</NavLink>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "activeClassName": "active",
+                "aria-current": "page",
+                "children": "Gastos",
+                "to": "/gastos",
+              },
+              "ref": null,
+              "rendered": "Gastos",
+              "type": [Function],
+            },
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <NavLink
+                activeClassName="active"
+                aria-current="page"
+                to="/ingresos"
+>
+                Ingresos
+</NavLink>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "activeClassName": "active",
+                "aria-current": "page",
+                "children": "Ingresos",
+                "to": "/ingresos",
+              },
+              "ref": null,
+              "rendered": "Ingresos",
+              "type": [Function],
+            },
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <NavLink
+                activeClassName="active"
+                aria-current="page"
+                to="#about"
+>
+                About
+</NavLink>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "activeClassName": "active",
+                "aria-current": "page",
+                "children": "About",
+                "to": "#about",
+              },
+              "ref": null,
+              "rendered": "About",
+              "type": [Function],
+            },
+            "type": "li",
+          },
+        ],
+        "type": "ul",
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
