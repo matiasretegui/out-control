@@ -14,7 +14,7 @@ const CashFlowForm = ({children, handleSubmit}) => (
     <label htmlFor="email">Enter your email</label>
     <input id="email" name="email" type="email" />
 
-    <label htmlFor="birthdate">Enter your birth date</label>
+    <label htmlFor="birthdate">Enter your afafafbirth date</label>
     <input id="birthdate" name="birthdate" type="text" />
 
     <input type="submit" value="Submit" />
