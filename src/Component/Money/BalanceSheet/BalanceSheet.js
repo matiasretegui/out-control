@@ -1,7 +1,7 @@
 import React, {Component} from 'react'
 import {connect} from 'react-redux';
 import CashFlow from '../../CashFlow/CashFlow'
-import MonthlyInChart from '../../Charts/MonthlyInChart'
+import PieChartReport from '../../charts/PieChartReport'
 
 class BalanceSheet extends Component {
   render () {
@@ -9,7 +9,7 @@ class BalanceSheet extends Component {
     return  <div className="BalanceSheet">
       <div>
         <h2>Ingresos Mensuales por $5000</h2>
-        <MonthlyInChart />
+        <PieChartReport  width={300} height={300} title='gastos'/>
         <a href='ingresos'>Ver Ingresos</a>
       </div>
       <div>
