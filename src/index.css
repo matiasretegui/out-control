@@ -23,3 +23,7 @@ body {
   background-color: #007bff;
   border-color: #007bff;
 }
+
+.test {
+  color: red;
+}
